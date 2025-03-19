@@ -14,10 +14,10 @@ A simple web application that displays random quotes with beautiful backgrounds 
 - Responsive design (works on mobile and desktop)
 
 ## Deployment
-Live demo: 
+Live demo: https://ashutoshdev-hub.github.io/Random-Quote-Generators/
 
 
 ## How to Run Locally
 1. **Clone the Repository**  
    ```bash
-   git clone :
+   git clone : https://github.com/Ashutoshdev-hub/Random-Quote-Generators
