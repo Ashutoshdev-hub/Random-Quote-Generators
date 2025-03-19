@@ -14,10 +14,10 @@ A simple web application that displays random quotes with beautiful backgrounds 
 - Responsive design (works on mobile and desktop)
 
 ## Deployment
-Live demo: [Insert deployment link here]  
-*(Add the URL after deploying, e.g., on Netlify or Vercel)*
+Live demo: 
+
 
 ## How to Run Locally
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/quote-of-the-day.git
+   git clone :
