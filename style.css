@@ -13,6 +13,7 @@ body {
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s ease;
+    opacity: 2;
 }
 
 .container {
@@ -26,6 +27,7 @@ body {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
 }
 
 blockquote {
@@ -50,12 +52,12 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #007bff8c;
+    background-color: #007bffce;
     color: rgba(0, 0, 0, 0.486);
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #0057b3e8;
     color: white;
 }
 
