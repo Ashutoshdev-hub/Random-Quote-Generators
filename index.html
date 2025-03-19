@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quote-card" id="quoteCard">
+            <blockquote id="quoteText">"Loading your quote..."</blockquote>
+            <p id="quoteAuthor">- Unknown</p>
+            <div class="buttons">
+                <button id="newQuoteBtn">New Quote</button>
+                <button id="copyBtn">Copy</button>
+                <button id="twitterBtn">Share on X</button>
+                <button id="exportBtn">Export</button> <!-- Added Export button back -->
+            </div>
+        </div>
+    </div>
+    <!-- Add html2canvas library from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

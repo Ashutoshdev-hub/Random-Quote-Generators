@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease;
+}
+
+.container {
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.quote-card {
+    background: rgba(255, 255, 255, 0.212);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.1rem;
+    font-style: italic;
+    text-align: right;
+}
+
+.buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff8c;
+    color: rgba(0, 0, 0, 0.486);
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .quote-card {
+        padding: 1rem;
+    }
+    blockquote {
+        font-size: 1.2rem;
+    }
+    button {
+        padding: 8px 10px;
+    }
+}
