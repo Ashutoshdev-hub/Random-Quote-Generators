@@ -6,7 +6,7 @@ const twitterButton = document.getElementById("twitterBtn");
 const exportButton = document.getElementById("exportBtn");
 const quoteBox = document.getElementById("quoteCard");
 
-// List of 10 beautiful Unsplash image URLs
+// List of 10  image URLs
 const backgroundPictures = [
   "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=1920&q=80",
   "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80",
